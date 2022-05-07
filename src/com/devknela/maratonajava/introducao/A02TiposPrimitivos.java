@@ -19,5 +19,9 @@ public class A02TiposPrimitivos {
         int explInt = (int) 10000000000L; // Irá cortar os bits
         System.out.println(explInt);
 
+        // String
+        String frase = "Never forget it";
+        System.out.println(frase);
+
     }
 }
