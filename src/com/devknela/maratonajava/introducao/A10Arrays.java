@@ -6,5 +6,9 @@ public class A10Arrays {
         String[] nomes = new String[]{
                 "Lucas", "Eduardo", "Renata", "Lara"
         };
+
+//        String[] nomes = {
+//                "Lucas", "Eduardo", "Renata", "Lara"
+//        };
     }
 }

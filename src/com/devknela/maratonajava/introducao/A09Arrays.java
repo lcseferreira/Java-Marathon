@@ -2,7 +2,7 @@ package com.devknela.maratonajava.introducao;
 
 public class A09Arrays {
     public static void main(String[] args) {
-        // Arrays unidimensionsais: arrays são referências para espaços em memória
+        // Arrays unidimensiosais: arrays são referências para espaços em memória
         // Variáveis do tipo ref (arrays são considerados objetos na memória)
         int[] idades = new int[3];
 
