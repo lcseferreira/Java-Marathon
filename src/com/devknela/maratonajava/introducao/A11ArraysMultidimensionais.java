@@ -18,11 +18,39 @@ public class A11ArraysMultidimensionais {
         }
 
         // foreach
-        for (int[] array : days
-        ) {
-            for (int num : array
-            ) {
+        for (int[] array : days) {
+            for (int num : array) {
                 System.out.println(num);
+            }
+        }
+
+        int[][] arrayInt = new int[2][];
+
+        arrayInt[0] = new int[2];
+        arrayInt[1] = new int[4];
+
+        arrayInt[0][0] = 1;
+        arrayInt[0][1] = 2;
+
+        arrayInt[1][0] = 1;
+        arrayInt[1][1] = 2;
+        arrayInt[1][2] = 3;
+        arrayInt[1][3] = 4;
+
+        for (int[] array : arrayInt) {
+            System.out.println("Array: " + array);
+            for (int num : array) {
+                System.out.println(num);
+            }
+        }
+
+        //  Outra inicialização de array
+        int[][] myArray = {{1, 2, 3}, {1, 2}, {1}};
+
+        for (int[] array : myArray) {
+            System.out.print("-> ");
+            for (int num : array) {
+                System.out.print(num + " ");
             }
         }
     }
