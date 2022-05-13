@@ -16,5 +16,14 @@ public class A11ArraysMultidimensionais {
                 System.out.println(days[i][j]);
             }
         }
+
+        // foreach
+        for (int[] array : days
+        ) {
+            for (int num : array
+            ) {
+                System.out.println(num);
+            }
+        }
     }
 }
