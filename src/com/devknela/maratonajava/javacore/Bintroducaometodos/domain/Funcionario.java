@@ -8,7 +8,8 @@ public class Funcionario {
     public void printData() {
         System.out.println(this.name);
         System.out.println(this.age);
-        System.out.println("Média dos salários: R$ " + averageSalary());
+
+        if (salaries != null) System.out.println("Média dos salários: R$ " + averageSalary());
     }
 
     public double averageSalary() {
